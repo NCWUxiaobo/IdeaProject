@@ -12,5 +12,10 @@
 </head>
 <body>
     第一次启动成功啦
+    <form action="test.jsp" method="post">
+        username:<input type="text" name="uname">
+        password:<input type="password" name="pwd">
+        <input type="submit" value="提交">
+    </form>
 </body>
 </html>
